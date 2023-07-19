@@ -2,14 +2,15 @@ package org.example;
 
 import java.util.Locale;
 
-public class Main {
-    public static void main(String[] args) {
+public class SaidaDeDados_03 {
 
-        System.out.println("Hello world!");
-        System.out.println("Boa Tarde");
+    public static void  SaidaDeDados_03(String []args){
+
+        System.out.println("Primeira Saída");
 
         int numeroTeste = 28;
         System.out.println(numeroTeste);
+
 
         //para ponto flutuante:
         double saidaFlutuante = 10.54886;
@@ -31,7 +32,6 @@ public class Main {
         //4 casas usa
         System.out.printf("%.4f%n",saidaFlutuante);
 
-
         //para concatenar elementos:
 
         System.out.println("Eu tennho em conta: " + saidaFlutuante + " em Dólares ");
@@ -39,5 +39,8 @@ public class Main {
         //concatenando com printf
 
         System.out.printf("Eu tenho mais de %f em dólares", saidaFlutuante);
+
+
     }
+
 }
